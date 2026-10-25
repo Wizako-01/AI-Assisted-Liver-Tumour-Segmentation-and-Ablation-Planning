@@ -51,9 +51,7 @@ Increasing the simulated ablation margin improved tumour coverage but also incre
 
 This was a computational feasibility study based on 2D CT images. The simulated ablation margins were measured in pixels rather than millimetres, and no actual treatment outcomes were available.
 
-The model also showed limited segmentation accuracy, particularly on tumour-containing slices. Inconsistencies between dataset metadata and segmentation masks may have affected training.
-
-The results should therefore not be interpreted as clinically validated treatment-planning recommendations.
+The model also showed limited segmentation accuracy, particularly on tumour-containing slices. 
 
 ## Future Work
 
