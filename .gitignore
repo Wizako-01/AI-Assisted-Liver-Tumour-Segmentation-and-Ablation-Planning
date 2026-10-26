@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Downloaded datasets
+data/
+datasets/
+dataset_6/
+lits-png/
+*.nii
+*.nii.gz
+*.dcm
+
+# Trained models
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated results
+lits_ablation_results/
+lits_ablation_results.zip
+outputs/
+runs/
+checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
